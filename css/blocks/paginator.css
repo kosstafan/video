@@ -1,0 +1,30 @@
+.pager {
+    text-align: center;
+    margin-bottom: 152px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.pager__display, .pager__list {
+    display: flex;
+    vertical-align: middle;
+}
+.pager__display {
+    margin-right: 26px;
+}
+.pager__item {
+    vertical-align: middle;
+}
+.pager__item--active .pager__link {
+    background: #FF5500;
+}
+.pager__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}

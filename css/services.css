@@ -1,0 +1,141 @@
+@import url('layout/normalize.css');
+@import url('layout/base.css');
+@import url('blocks/paginator.css');
+@import url('blocks/header.css');
+@import url('blocks/footer.css');
+@import url('blocks/breadcrumbs.css');
+
+
+main {
+    background: #F4F5F5;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumbs {
+    padding-top: 15px;
+}
+
+.details-cell {
+    padding: 5px 58px 50px;
+}
+
+.footer .container {
+    margin-top: 44px;
+}
+.service-bg--img {
+    background: url('../img/services-img/top-line.png') center top no-repeat;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service__desc {
+    line-height: 27px;
+}
+
+.service__img {
+    width: 460px;
+    height: 333px;
+}
+
+.service__item:nth-child(1) {
+     margin-bottom: 25px;
+}
+
+.service-title {
+    font-weight: 800;
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 119px;
+}
+.service__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+
+.service__title-cell {
+    padding: 20px 58px 25px;
+}
+.service__desc-cell {
+    padding: 0 58px 30px;
+}
+
+
+.main {
+    color: #303030;
+    font-size: 16px;
+    
+}
+
+.main .container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 94px;
+}
+
+.pager {
+    margin-bottom: 90px;
+}
+.pager__link {
+    color: black;
+}
+.pager__item--active .pager__link {
+    color: white;
+    
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.partners__item:nth-child(8) {
+    justify-content: flex-end;
+}
+.partners__item:nth-child(4) {
+    justify-content: flex-end;
+}
+.partners__item:nth-child(2) {
+    justify-content: center;
+}
+.partners__item:nth-child(3) {
+    justify-content: center;
+}
+.partners__item:nth-child(6) {
+    justify-content: center;
+}
+.partners__item:nth-child(7) {
+    justify-content: center;
+}
+.partners--bg {
+    background: #E5E5E5;
+    padding-bottom: 82px;
+}
+
+.partners__item {
+    width: 275px;
+    flex: 1;
+    padding: 35px 0 35px 0;
+    filter: grayscale(1);
+    transition: 150ms;
+}
+.partners__item:hover {
+    filter: grayscale(0);
+}
+ul li {
+    display: inline-flex;
+}
+
+.partners-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}

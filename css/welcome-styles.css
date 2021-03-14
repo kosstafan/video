@@ -1,0 +1,67 @@
+@import url('layout/normalize.css');
+@import url('layout/base.css');
+
+
+.enter {
+    position: relative;
+}
+
+.enter__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 180%);
+    animation: logoAnimation 1.5s;
+}
+.details {
+    background-color:#FF5500;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 850%);
+    animation: enterAnimation 1.5s;
+}
+.details:hover {
+    background-color: #FF3D00;
+}
+
+@keyframes logoAnimation{
+    0% {
+        transform: translate(-50%, 180%) rotate(90deg) scale(0);       
+    }
+    50% {
+        transform: translate(-50%, 180%) rotate(90deg) scale(0)
+    }
+    90% {
+        transform:translate(-50%, 180%) rotate(-10deg) scale(1);
+    }
+    100% {
+        transform:translate(-50%, 180%) rotate(0);
+    }
+}
+@keyframes enterAnimation{
+    0% {
+        transform: translate(-50%, 850%) rotate(90deg) scale(0);
+    }
+    50% {
+        transform: translate(-50%, 850%) rotate(90deg) scale(0)
+    }
+    90% {
+        transform:translate(-50%, 850%) rotate(-10deg) scale(1);
+    }
+    100% {
+        transform:translate(-50%, 850%) rotate(0);
+    }
+}
+.enter__rec {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+}
+
+
+.wrapper--bg {
+    background: url('../img/welcome-img/bg.png') center no-repeat;
+}

@@ -1,0 +1,273 @@
+@import url('layout/normalize.css');
+@import url('layout/base.css');
+@import url('blocks/paginator.css');
+@import url('blocks/header.css');
+@import url('blocks/footer.css');
+@import url('blocks/breadcrumbs.css');
+
+
+button[type=reset]:focus {
+    outline: none;
+}
+button[type=submit]:focus {
+    outline: none;
+}
+label input[type=checkbox] {
+	display: none;
+}
+
+textarea:focus {
+    outline: 1px solid #CCCCCC;
+}
+input[type=text]:focus {
+    outline: 1px solid #CCCCCC;
+}
+
+label {
+    font-size: 13px;
+}
+
+span {
+    color:#FF5300;
+    ;
+}
+main {
+    background: #F4F5F5;
+    padding-bottom: 96px;
+}
+textarea {
+    resize: none;
+}
+
+.breadcrumbs {
+    margin-top: 95px;
+}
+
+.discount__bg {
+    background: #373737;
+}
+.discount__img{ 
+    padding: 117px 0;
+    background: url('../img/review/party.png') center right no-repeat;
+}
+.discount__title {
+font-size: 48px;
+font-weight: 700;
+line-height: 65px;
+text-align: left;
+width: 48%;
+}
+
+.footer .container {
+    margin-top: 44px;
+}
+.form__body {
+    font-size: 18px;   
+    color: black;
+}
+.form__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.form__input, .form__text {
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.form__input, .form__text:active {
+    border: 1px #ccc;
+}
+.form__input {
+    width:47%;
+    margin-bottom: 26px;
+}
+.form__text {
+    width: 100%;
+    min-height:235px;
+}
+.form__checklist {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.form__checkbox {
+    padding: 9px 15px;
+    background: #E7E7E7;
+    border-radius: 35px;
+    font-size: 13px;
+    margin-right: 18px;
+    margin-bottom: 10px;
+    color: #303030;
+    cursor: pointer;
+}
+#ser1:checked ~ .form__checkbox {
+    background: rgb(240, 168, 168);
+} 
+#ser2:checked ~ .form__checkbox {
+    background: rgb(240, 168, 168);
+} 
+#ser3:checked ~ .form__checkbox {
+    background: rgb(240, 168, 168);
+} 
+#ser4:checked ~ .form__checkbox {
+    background: rgb(240, 168, 168);
+} 
+#ser5:checked ~ .form__checkbox {
+    background: rgb(240, 168, 168);
+} 
+#ser6:checked ~ .form__checkbox {
+    background: rgb(240, 168, 168);
+} 
+#ser7:checked ~ .form__checkbox {
+    background: rgb(240, 168, 168);
+} 
+.form__service-q {
+    text-align: left; 
+    min-width: 400px;
+}
+.form__services {
+    display: flex;
+    justify-content: space-between;
+}
+.form__title{
+    text-align: left;
+    text-transform: uppercase;
+    color: #202020;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49px;
+    margin: 79px 0 56px;
+}
+.submit-btn {
+    margin-left: 13px;
+    background: #FF5500;
+    color:#fff
+}
+.submit-btn:hover {
+    background: #FF3D00;
+}
+.reset-btn {
+    background: #8E8E8E;
+    border-color: #8E8E8E;
+    color: #fff;
+}
+.reset-btn:hover {
+    background: #2B2B2B;
+}
+.form__buttons {
+    margin-top: 33px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.review {
+    padding: 94px 0 55px;
+}
+.review__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review__item {
+    display: flex;
+    max-width: 557px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    flex-direction: column;
+    background: #E5E5E5;
+    padding: 53px 31px 35px;
+} 
+
+.review__subj {
+    display: flex;
+    align-items: center;
+}
+.review__name {
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+}
+.review__name::after {
+    content: url('../img/review/vk-blue\ 1.png');
+    margin-left: 7px;
+}
+.review-name--active {
+    text-decoration: underline;
+    color: #2E77A4;
+}
+
+.review__type {
+    background:#F2D4C9;
+    color:#303030;
+    padding: 10px 25px;
+    /* width: 141px; */
+    text-align: left;
+    border-radius: 35px;
+}
+.review__type-cell {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.review__img {
+    width: 136px;
+}
+
+.review__img-cell {
+    text-align: left;
+}
+
+.review__text {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.review__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #202020;
+    margin-top: 5px;
+}
+
+.review__desc {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #818181;
+}
+
+.review__date {
+    margin-top: 55px;
+    color: #1A1B1E;
+    font-weight: 700;
+    text-align: left;
+}
+.review-bg--img {
+    background: url('../img/services-img/top-line.png') center top no-repeat;
+}
+.main-title {
+    font-weight: 800;
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 123px;
+}
+
+.pager {
+    color: #000;
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+.pager__link {
+    color: #000;
+}
+.pager__item--active .pager__link {
+    color: #fff;
+}
+

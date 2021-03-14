@@ -1,0 +1,197 @@
+.contacts {
+    text-align: right;
+    font-style: normal;
+}
+.contacts__desc {
+    font-size: 11px;
+}
+
+.contacts__number {
+    display: block;
+    font-size: 26px;
+}
+.contacts__shedule {
+    text-decoration: underline;
+}
+
+.footer {
+    padding-bottom: 60px;
+    vertical-align: middle;
+}
+.footer .menu {
+    padding-left: 70px;
+}
+.footer .contacts {
+    margin-left: 0px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.footer .container:last-child {
+    align-items: flex-end;
+}
+
+.logo-img {
+    text-align: left;
+}
+
+.socials {
+    display: inline-flex;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0px;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    height: 36px;
+    width: 36px;
+}
+
+.socials__item--icon--tg .socials__link {
+    /* transition-duration: 200ms; */
+    position: relative;
+}
+
+.socials__item--icon--tg .socials__link:hover:before{
+    opacity: 1;
+}
+.socials__item--icon--tg .socials__link:hover:after{
+    opacity: 0;
+}
+.socials__item--icon--tg .socials__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; 
+    height: 36px;
+    background: url('../../img/social-sprites.png') -0 -180px;
+    transition: 0.3s;
+}
+
+.socials__item--icon--tg .socials__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; 
+    height: 36px;
+    background: url('../../img/social-sprites.png') -0 -144px;
+    opacity: 0;
+}
+
+.socials__item--icon--vk .socials__link:hover:before{
+    opacity: 1;
+}
+.socials__item--icon--vk .socials__link:hover:after{
+    opacity: 0;
+}
+.socials__item--icon--vk .socials__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; 
+    height: 36px;
+    background: url('../../img/social-sprites.png') -0 -216px;
+    transition: 0.3s;
+}
+.socials__item--icon--vk .socials__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; 
+    height: 36px;
+    background: url('../../img/social-sprites.png') -0 -252px;
+    opacity: 0;
+}
+.socials__item--icon--vk .socials__link {
+    position: relative;
+}
+
+.socials__item--icon--in .socials__link {
+    position: relative;
+}
+.socials__item--icon--in .socials__link:hover:before{
+    opacity: 1;
+}
+.socials__item--icon--in .socials__link:hover:after{
+    opacity: 0;
+}
+.socials__item--icon--in .socials__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; 
+    height: 36px;
+    background: url('../../img/social-sprites.png') -0 -72px;
+    transition: 0.3s;
+}
+.socials__item--icon--in .socials__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; 
+    height: 36px;
+    background: url('../../img/social-sprites.png') -0 -108px;
+    opacity: 0;
+}
+
+.socials__item--icon--fb .socials__link {
+    position: relative;
+}
+.socials__item--icon--fb .socials__link:hover:before{
+    opacity: 1;
+}
+.socials__item--icon--fb .socials__link:hover:after{
+    opacity: 0;
+}
+.socials__item--icon--fb .socials__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; 
+    height: 36px;
+    background: url('../../img/social-sprites.png') -0 -0;
+    transition: 0.3s;
+}
+.socials__item--icon--fb .socials__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; 
+    height: 36px;
+    background: url('../../img/social-sprites.png') -0 -36px;
+    opacity: 0;
+}

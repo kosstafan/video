@@ -1,0 +1,14 @@
+.breadcrumbs {
+    margin-top: 83.5px;
+    margin-bottom: 27.5px;
+    display: flex;
+    color: #9A9A9A;
+}
+
+.breadcrumbs a {
+    text-decoration: underline;
+}
+.breadcrumbs__item, .breadcrumbs__link, .breadcrumbs__active-item {
+    display: inline-flex;
+    margin-right: 4px;
+}
